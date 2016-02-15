@@ -1,0 +1,16 @@
+Question #1:
+mkdir test
+cd test
+git init
+echo "Git is good" > a.txt
+git status
+git add a.txt
+git commit -m "adding a.txt"
+
+Question #2:
+mkdir subtest
+cd subtest
+echo "abc" > b.txt
+echo "a1.txt" > a1.txt
+echo "a2.txt" > a2.txt
+

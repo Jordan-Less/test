@@ -13,4 +13,14 @@ cd subtest
 echo "abc" > b.txt
 echo "a1.txt" > a1.txt
 echo "a2.txt" > a2.txt
+cd ..
+git add --all
+git status
+git log --graph --decorate
+
+Question #3:
+git remote add origin https://github.com/Jordan-Less/test.git
+git remote -v
+
+
 
